@@ -9,7 +9,7 @@ public class teste {
             estadoAtual[i] = i;
         }
 
-        Set<String> configuracoesVistas = new HashSet<>();
+        Set<String> configuracoesVistas = new TreeSet<>();
         configuracoesVistas.add(Arrays.toString(estadoAtual));
 
         int rodadas = 0;
